@@ -1,0 +1,19 @@
+{
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "name": "Chat",
+    "description": "37100 Final Project",
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "Chat",
+        "default_icon": "assets/icon.png"
+    },
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ]
+}
